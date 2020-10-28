@@ -51,7 +51,7 @@ animateDown();
 setTimeout(headerIn, 5000);
 const h1 = document.querySelector('h1');
 function headerIn() {
-    h1.innerHTML += '  Home';
+    h1.innerHTML += ' at home';
     setTimeout(()=>{
         h1.innerText = '';
     }
